@@ -53,10 +53,12 @@ Uses a Multilayer Perceptron (MLP) neural network to perform one-step-ahead fore
 ```
 wine-clustering-fx-forecasting/
 │
-├── whitewine_kmeans_pca.R          # Clustering analysis script
-├── exchangerate_mlp_forecasting.R  # Neural network forecasting script
-├── Whitewine_Dataset.xlsx          # White wine dataset
-├── ExchangeUSD_Dataset.xlsx        # Exchange rate dataset
+├── datasets/
+│   ├── Whitewine_Dataset.xlsx
+│   └── ExchangeUSD_Dataset.xlsx
+│
+├── whitewine_kmeans_pca.R
+├── exchangerate_mlp_forecasting.R
 └── README.md
 ```
 
@@ -89,7 +91,7 @@ git clone https://github.com/Minduli-Lasandi/Wine-Clustering-FX-Forecasting.git
 setwd("path/to/wine-clustering-fx-forecasting")
 ```
 
-3. Make sure both dataset files (`Whitewine_Dataset.xlsx` and `ExchangeUSD_Dataset.xlsx`) are in the same folder as the scripts.
+3. Make sure both dataset files (`Whitewine_Dataset.xlsx` and `ExchangeUSD_Dataset.xlsx`) are in the dataset folder.
 
 4. Run the clustering script:
 ```r
