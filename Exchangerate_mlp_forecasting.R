@@ -4,7 +4,7 @@ library(neuralnet)
 library(ggplot2)
 
 # Load the Excel file with data
-data <- read_excel("ExchangeUSD_Dataset.xlsx")
+data <- read_excel("Dataset/ExchangeUSD_Dataset.xlsx")
 
 # Extract the 3rd column from dataset
 extracted_data <- data[[3]]

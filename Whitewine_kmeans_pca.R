@@ -5,7 +5,7 @@ library(cluster)
 library(fpc)
 
 #Load the excel file with the data
-read_data <- read_excel("Whitewine_Dataset.xlsx") 
+read_data <- read_excel("Dataset/white_wine.xlsx")
 
 #Read the first 11 attributes of the dataset
 data <- read_data[, 1:11]
