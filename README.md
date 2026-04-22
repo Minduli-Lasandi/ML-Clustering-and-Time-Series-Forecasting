@@ -83,7 +83,7 @@ install.packages(c("readxl", "NbClust", "factoextra", "cluster", "fpc", "neuraln
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Minduli-Lasandi/Wine-Clustering-FX-Forecasting.git
+git clone git@github.com:Minduli-Lasandi/ML-Clustering-and-Time-Series-Forecasting.git
 ```
 
 2. Open RStudio and set your working directory to the project folder:
