@@ -1,4 +1,4 @@
-# Wine-Clustering-FX-Forecasting
+# Wine Clustering and FX Forecasting using Machine Learning (R)
 
 A machine learning project covering two distinct tasks: unsupervised clustering of white wine varieties based on chemical properties, and neural network forecasting of USD/EUR exchange rates using an autoregressive approach.
 
